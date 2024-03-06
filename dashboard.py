@@ -7,7 +7,6 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 customers_df = pd.read_csv("customers_dataset.csv")
-geolocation_df=pd.read_csv("geolocation_dataset.csv")
 order_items_df = pd.read_csv("order_items_dataset.csv")
 order_payments_df = pd.read_csv("order_payments_dataset.csv")
 order_df = pd.read_csv("orders_dataset.csv")
